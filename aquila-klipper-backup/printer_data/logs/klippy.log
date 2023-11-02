@@ -9835,3 +9835,61 @@ Command {update_git_script} finished
 Running Command {update_git_script}...:
 cp: cannot stat '/home/pi/printer_data/config/varibles.cfg': No such file or directory
 
+Reinitialized existing Git repository in /home/pi/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Cannot rewrite branches: You have unstaged changes.
+
+Additionally, your index contains uncommitted changes.
+
+[main c83557e] New backup from 02-11-23
+ 30 files changed, 54756 insertions(+)
+ create mode 100644 aquila-klipper-backup/macros.cfg
+ create mode 120000 aquila-klipper-backup/mainsail.cfg
+ create mode 100644 aquila-klipper-backup/moonraker.conf
+ create mode 100644 aquila-klipper-backup/printer.cfg
+ create mode 100644 aquila-klipper-backup/printer_data/.moonraker.uuid
+ create mode 100644 aquila-klipper-backup/printer_data/backup/20231030T055602Z/config/moonraker.conf
+ create mode 120000 aquila-klipper-backup/printer_data/comms/klippy.serial
+ create mode 100644 aquila-klipper-backup/printer_data/config/crowsnest.conf
+ create mode 120000 aquila-klipper-backup/printer_data/config/fluidd.cfg
+ create mode 100644 aquila-klipper-backup/printer_data/config/macros.cfg
+ create mode 120000 aquila-klipper-backup/printer_data/config/mainsail.cfg
+ create mode 100644 aquila-klipper-backup/printer_data/config/moonraker.conf
+ create mode 100644 aquila-klipper-backup/printer_data/config/printer.cfg
+ create mode 100644 aquila-klipper-backup/printer_data/config/shell_command.cfg
+ create mode 100644 aquila-klipper-backup/printer_data/database/data.mdb
+ create mode 100644 aquila-klipper-backup/printer_data/database/lock.mdb
+ create mode 100644 aquila-klipper-backup/printer_data/logs/crowsnest.log
+ create mode 120000 aquila-klipper-backup/printer_data/logs/fluidd-access.log
+ create mode 120000 aquila-klipper-backup/printer_data/logs/fluidd-error.log
+ create mode 100644 aquila-klipper-backup/printer_data/logs/klippy.log
+ create mode 100644 aquila-klipper-backup/printer_data/logs/klippy.log.2023-10-30
+ create mode 100644 aquila-klipper-backup/printer_data/logs/klippy.log.2023-10-31
+ create mode 100644 aquila-klipper-backup/printer_data/logs/klippy.log.2023-11-01
+ create mode 100644 aquila-klipper-backup/printer_data/logs/moonraker.log
+ create mode 100644 aquila-klipper-backup/printer_data/logs/moonraker.log.2023-10-31
+ create mode 100644 aquila-klipper-backup/printer_data/logs/moonraker.log.2023-11-01
+ create mode 100644 aquila-klipper-backup/printer_data/moonraker.asvc
+ create mode 100644 aquila-klipper-backup/printer_data/systemd/crowsnest.env
+ create mode 100644 aquila-klipper-backup/printer_data/systemd/klipper.env
+ create mode 100644 aquila-klipper-backup/printer_data/systemd/moonraker.env
+
+remote: Repository not found.
+
+fatal: repository 'https://github.com/slmnow@gmail.com/aquila-klipper-backup.git/' not found
+
+Command {update_git_script} finished
+
+Running Command {update_git_script}...:
+cp: cannot stat '/home/pi/printer_data/config/varibles.cfg': No such file or directory
+
